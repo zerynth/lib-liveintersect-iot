@@ -1,0 +1,19 @@
+{
+    "description": "LiveIntersect IoT support",
+    "fullname": "lib.liveintersect.iot",
+    "git_pointer": "zerynth://zerynth-libs/liveintersect-iot",
+    "info": {
+        "chip_manufacturer": "-",
+        "chip_name": "-",
+        "name": "Zerynth LiveIntersect IoT Library",
+        "type": "IoT Cloud"
+    },
+    "keywords": [
+        "liveintersect",
+        "iot"
+    ],
+    "repo": "official",
+    "title": "LiveIntersect IoT Library",
+    "version": "r2.1.2",
+    "whatsnew": ""
+}

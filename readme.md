@@ -7,7 +7,21 @@ LiveIntersect library and reference implementation for Zerynth Embedded firmware
 1. Zerynth Studio r2.1.1-p01
 1. ESP32 DevKitC (Or other compatible hardware)
 
-## LiveIntersect IOT-Core-Asset [iot.py](iot.py)
+## Using LiveIntersect Zerynth Extension
+### Lookup/Clone Asset Simulation project
+![Lookup/Clone Asset Simulation project](readme/ZS_Search.png)
+### Change WiFi credentials
+![Change WiFi credentials](readme/ChangeWiFiCredentials.png)
+### Change SSL Certificate [ or set `ctx=none` for non-ssl traffic ]
+**SSL certificate must match the LiveIntersect server provided in the configuration**
+![Change SSL Certificate](readme/ChangeSSLCertificate.png)
+### Change LiveIntersect Config
+**API-Key included in the example config may not work in future. Please contact [Esprida LiveIntersect](http://liveintersect.com) to get new API-key**
+![Change LiveIntersect Config](readme/ChangeLiveIntersectConfig.png)
+
+
+## Source Description
+### LiveIntersect IOT-Core-Asset [iot.py](iot.py)
 Implementation of Live-Intersect core http implementations
 
 1. Register-Asset register_asset()
@@ -17,7 +31,6 @@ Implementation of Live-Intersect core http implementations
 1. post_metric()
 1. post_attribute()
 
-## Example Implementation
 ### LiveIntersect Asset Configuration [examples/Asset_Simulation/asset.config.json](examples/Asset_Simulation/asset.config.json)
 LiveIntersect Asset configuration
 

@@ -1,0 +1,13 @@
+---
+description: LiveIntersect IoT support
+fullname: lib.liveintersect.iot
+info:
+    chip_manufacturer: '-'
+    chip_name: '-'
+    name: LiveIntersect IoT Library
+    type: IoT
+keywords:
+- liveintersect
+- iot
+title: LiveIntersect IoT Library
+...
